@@ -1,0 +1,202 @@
+
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Lato|Poppins:300,400,400i,500,600,700,800');
+
+/*===== Plugin Stylesheets Import =====*/
+@import url(plugins.css);
+
+/*===== General Styling =====*/
+
+body {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins";
+}
+p {
+  font-size: 15px;
+  font-family: "lato";
+  line-height: 28px;
+  color:#9fa4af;
+  display: inline-block;
+	letter-spacing: 0.5px;
+}
+
+ul li,
+ol li {
+  font-family: "Poppins";
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  color: inherit;
+  outline: none;
+  -webkit-text-decoration: none;
+  -moz-text-decoration: none;
+  -ms-text-decoration: none;
+  -o-text-decoration: none;
+  text-decoration: none;
+}
+
+
+section{
+  float:left;
+  position:relative;
+  width:100%;
+}
+
+.block {
+  float: left;
+  padding: 120px 0;
+  position: relative;
+  width: 100%;
+}
+
+
+/*===== Cross Browser Compatibility =====*/
+a,
+input,
+button,
+textarea,
+:before,
+:after,
+.owl-nav > div,
+.owl-dots > div,
+.restaurants-wrapper > li,
+.popular-dish-thumb > a img,
+.news-btns,
+nav ul ul,
+.chosen-results > li,
+.featured-restaurant-box,
+.toggle-item,
+.toggle-item > h4,
+.toggle-item > h4 i,
+.rating-box > span,
+.switch-slider,
+.rate-share,
+.newsletter-popup-wrapper,
+.gallery-info-btns,
+.gallery-bx > h3,
+.ingradient-list,
+.log-popup,
+.sign-popup,
+label,
+.topbar,
+.logo,
+.logo > h1 img,
+nav > div > ul > li,
+nav > div > ul > li span,
+.responsive-logomenu > span,
+.responsive-menu > span,
+.responsive-menu,
+.your-order-popup,
+.payment-popup-wrapper
+{
+  -webkit-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
+}
+.popular-dish-box {
+  float: left;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.popular-dish-thumb {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+.popular-dish-thumb > a {
+  float: left;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.popular-dish-thumb > a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  background-color: #000;
+  z-index: 1;
+}
+.popular-dish-box:hover .popular-dish-thumb > a::before {opacity: .2;}
+.popular-dish-box:hover .popular-dish-thumb > a img {
+  -webkit-transform: rotate(3deg) scale(1.08);
+  -ms-transform: rotate(3deg) scale(1.08);
+  -o-transform: rotate(3deg) scale(1.08);
+  transform: rotate(3deg) scale(1.08);
+}
+.popular-dish-info {
+    background: #f9f9f9 none repeat scroll 0 0;
+    float: left;
+    padding: 30px 33px;
+    width: 100%;
+}
+.popular-dish-info > h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 12px;
+	margin-top: 0;
+}
+.popular-dish-info > p {
+	margin-bottom: 34px;
+	color: #636363;
+	line-height: 24px;
+	font-family: lato;
+	display: inline-block;
+	width: 100%;
+}
+.price {
+  float: left;
+  font-size: 16px;
+  font-family: Poppins;
+  color: #fb6e14;
+
+
+}
+.popular-dish-info .price {line-height: 37px;}
+.popular-dish-info > a {
+  background: #fb6e14;
+    border: 1px solid transparent;
+    color: #fff;
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 20px;
+    text-transform: uppercase;
+}
+.restaurant-info {
+    border-top: 1px solid #e2e2e2;
+    float: left;
+    margin-top: 33px;
+    padding-top: 17px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
